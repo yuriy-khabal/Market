@@ -1,0 +1,12 @@
+C:\Users\Юра\source\repos\Market\Market.Utility\bin\Debug\net7.0\Market.Utility.deps.json
+C:\Users\Юра\source\repos\Market\Market.Utility\bin\Debug\net7.0\Market.Utility.dll
+C:\Users\Юра\source\repos\Market\Market.Utility\bin\Debug\net7.0\Market.Utility.pdb
+C:\Users\Юра\source\repos\Market\Market.Utility\obj\Debug\net7.0\Market.Utility.csproj.AssemblyReference.cache
+C:\Users\Юра\source\repos\Market\Market.Utility\obj\Debug\net7.0\Market.Utility.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Юра\source\repos\Market\Market.Utility\obj\Debug\net7.0\Market.Utility.AssemblyInfoInputs.cache
+C:\Users\Юра\source\repos\Market\Market.Utility\obj\Debug\net7.0\Market.Utility.AssemblyInfo.cs
+C:\Users\Юра\source\repos\Market\Market.Utility\obj\Debug\net7.0\Market.Utility.csproj.CoreCompileInputs.cache
+C:\Users\Юра\source\repos\Market\Market.Utility\obj\Debug\net7.0\Market.Utility.dll
+C:\Users\Юра\source\repos\Market\Market.Utility\obj\Debug\net7.0\refint\Market.Utility.dll
+C:\Users\Юра\source\repos\Market\Market.Utility\obj\Debug\net7.0\Market.Utility.pdb
+C:\Users\Юра\source\repos\Market\Market.Utility\obj\Debug\net7.0\ref\Market.Utility.dll

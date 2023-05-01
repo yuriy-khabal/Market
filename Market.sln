@@ -3,7 +3,13 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.5.33414.496
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MarketWeb", "MarketWeb\MarketWeb.csproj", "{B513202A-1DA1-49A3-B24D-FEBAC6CABB98}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MarketWeb", "MarketWeb\MarketWeb.csproj", "{B513202A-1DA1-49A3-B24D-FEBAC6CABB98}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Market.DataAccess", "Market.DataAccess\Market.DataAccess.csproj", "{CD365673-3AC1-4582-B67E-F5526B34C8D2}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Market.Utility", "Market.Utility\Market.Utility.csproj", "{87E62259-0911-486E-AE81-79C12D84E6CF}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Market.Models", "Market.Models\Market.Models.csproj", "{5006C3EC-4087-4770-9935-E03074CC20DC}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -15,6 +21,18 @@ Global
 		{B513202A-1DA1-49A3-B24D-FEBAC6CABB98}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{B513202A-1DA1-49A3-B24D-FEBAC6CABB98}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{B513202A-1DA1-49A3-B24D-FEBAC6CABB98}.Release|Any CPU.Build.0 = Release|Any CPU
+		{CD365673-3AC1-4582-B67E-F5526B34C8D2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CD365673-3AC1-4582-B67E-F5526B34C8D2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CD365673-3AC1-4582-B67E-F5526B34C8D2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CD365673-3AC1-4582-B67E-F5526B34C8D2}.Release|Any CPU.Build.0 = Release|Any CPU
+		{87E62259-0911-486E-AE81-79C12D84E6CF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{87E62259-0911-486E-AE81-79C12D84E6CF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{87E62259-0911-486E-AE81-79C12D84E6CF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{87E62259-0911-486E-AE81-79C12D84E6CF}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5006C3EC-4087-4770-9935-E03074CC20DC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5006C3EC-4087-4770-9935-E03074CC20DC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5006C3EC-4087-4770-9935-E03074CC20DC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5006C3EC-4087-4770-9935-E03074CC20DC}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

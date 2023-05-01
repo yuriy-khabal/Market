@@ -1,0 +1,12 @@
+C:\Users\Юра\source\repos\Market\Market.Models\bin\Debug\net7.0\Market.Models.deps.json
+C:\Users\Юра\source\repos\Market\Market.Models\bin\Debug\net7.0\Market.Models.dll
+C:\Users\Юра\source\repos\Market\Market.Models\bin\Debug\net7.0\Market.Models.pdb
+C:\Users\Юра\source\repos\Market\Market.Models\obj\Debug\net7.0\Market.Models.csproj.AssemblyReference.cache
+C:\Users\Юра\source\repos\Market\Market.Models\obj\Debug\net7.0\Market.Models.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Юра\source\repos\Market\Market.Models\obj\Debug\net7.0\Market.Models.AssemblyInfoInputs.cache
+C:\Users\Юра\source\repos\Market\Market.Models\obj\Debug\net7.0\Market.Models.AssemblyInfo.cs
+C:\Users\Юра\source\repos\Market\Market.Models\obj\Debug\net7.0\Market.Models.csproj.CoreCompileInputs.cache
+C:\Users\Юра\source\repos\Market\Market.Models\obj\Debug\net7.0\Market.Models.dll
+C:\Users\Юра\source\repos\Market\Market.Models\obj\Debug\net7.0\refint\Market.Models.dll
+C:\Users\Юра\source\repos\Market\Market.Models\obj\Debug\net7.0\Market.Models.pdb
+C:\Users\Юра\source\repos\Market\Market.Models\obj\Debug\net7.0\ref\Market.Models.dll
