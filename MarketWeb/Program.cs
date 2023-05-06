@@ -1,8 +1,6 @@
 using Market.DataAccess.Data;
 using Market.DataAccess.Repository;
 using Market.DataAccess.Repository.IRepository;
-//using MarketWeb.Areas.Admin.Controllers;
-//using MarketWeb.Areas.Customer.Controllers;
 using Microsoft.EntityFrameworkCore;
 
 var builder = WebApplication.CreateBuilder(args);
