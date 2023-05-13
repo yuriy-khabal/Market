@@ -36,7 +36,9 @@ namespace Market.DataAccess.Data
                         ListPrice = 99,
                         Price = 90,
                         Price50 = 85,
-                        Price100 = 80
+                        Price100 = 80,
+                        CategoryId = 1,
+                        ImageUrl = ""
                     },
                     new Product
                     {
@@ -48,7 +50,9 @@ namespace Market.DataAccess.Data
                         ListPrice = 99,
                         Price = 90,
                         Price50 = 85,
-                        Price100 = 80
+                        Price100 = 80,
+                        CategoryId = 2,
+                        ImageUrl = ""
                     },
                     new Product
                     {
@@ -60,7 +64,9 @@ namespace Market.DataAccess.Data
                         ListPrice = 99, 
                         Price = 90,
                         Price50 = 85,
-                        Price100 = 80
+                        Price100 = 80,
+                        CategoryId = 1,
+                        ImageUrl = ""
                     },
                     new Product
                     {
@@ -72,7 +78,9 @@ namespace Market.DataAccess.Data
                         ListPrice = 99,
                         Price = 90,
                         Price50 = 85,
-                        Price100 = 80
+                        Price100 = 80,
+                        CategoryId = 3,
+                        ImageUrl = ""
                     },
                     new Product
                     {
@@ -84,7 +92,9 @@ namespace Market.DataAccess.Data
                         ListPrice = 99,
                         Price = 90,
                         Price50 = 85,
-                        Price100 = 80
+                        Price100 = 80,
+                        CategoryId = 2,
+                        ImageUrl = ""
                     },
                     new Product
                     {
@@ -96,7 +106,9 @@ namespace Market.DataAccess.Data
                         ListPrice = 99,
                         Price = 90,
                         Price50 = 85,
-                        Price100 = 80
+                        Price100 = 80,
+                        CategoryId = 1,
+                        ImageUrl = ""
                     }
                 );
         }

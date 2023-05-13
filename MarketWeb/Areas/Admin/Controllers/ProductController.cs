@@ -1,8 +1,11 @@
 ﻿using Market.DataAccess.Data;
 using Market.DataAccess.Repository.IRepository;
 using Market.Models;
+using Market.Models.ViewModels;
 using Microsoft.AspNetCore.Mvc;
+using Microsoft.AspNetCore.Mvc.Rendering;
 using NuGet.Protocol;
+using System.Collections.Generic;
 
 namespace MarketWeb.Areas.Admin.Controllers
 {
@@ -18,27 +21,46 @@ namespace MarketWeb.Areas.Admin.Controllers
 
         public IActionResult Index()
         {
-            var getObjProducts = _unitOfWork.Product.GetAll().ToList();
+            List<Product> getObjProducts = _unitOfWork.Product.GetAll().ToList();
+         
             return View(getObjProducts);
         }
 
         public IActionResult Create()
         {
-            return View();
+            ProductVM productVM = new()
+            {
+                CategoryList = _unitOfWork.Category.GetAll().Select(u => new SelectListItem
+                {
+                    Text = u.Name,
+                    Value = u.Id.ToString()
+                }),
+                Product = new Product()
+            };
+            return View(productVM);
         }
 
         [HttpPost]
-        public IActionResult Create(Product obj)
+        public IActionResult Create(ProductVM productVM)
         {
             if (ModelState.IsValid)
             {
-                _unitOfWork.Product.Add(obj);
+                _unitOfWork.Product.Add(productVM.Product);
                 _unitOfWork.Save();
                 TempData["Success"] = "Product Create Successfully";
                 return RedirectToAction("Index");
             }
+            else
+            {
 
-            return View();
+                productVM.CategoryList = _unitOfWork.Category.GetAll().Select(u => new SelectListItem
+                {
+                    Text = u.Name,
+                    Value = u.Id.ToString()
+                });
+                
+                return View(productVM);
+            }
         }
 
         public IActionResult Edit(int? id)

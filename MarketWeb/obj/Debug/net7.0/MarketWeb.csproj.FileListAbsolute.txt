@@ -291,3 +291,6 @@ C:\Users\Юра\source\repos\Market\MarketWeb\bin\Debug\net7.0\ru\Microsoft.Code
 C:\Users\Юра\source\repos\Market\MarketWeb\bin\Debug\net7.0\tr\Microsoft.CodeAnalysis.Workspaces.MSBuild.resources.dll
 C:\Users\Юра\source\repos\Market\MarketWeb\bin\Debug\net7.0\zh-Hans\Microsoft.CodeAnalysis.Workspaces.MSBuild.resources.dll
 C:\Users\Юра\source\repos\Market\MarketWeb\bin\Debug\net7.0\zh-Hant\Microsoft.CodeAnalysis.Workspaces.MSBuild.resources.dll
+C:\Users\Юра\source\repos\Market\MarketWeb\obj\Debug\net7.0\MarketWeb.MvcApplicationPartsAssemblyInfo.cs
+C:\Users\Юра\source\repos\Market\MarketWeb\bin\Debug\net7.0\Microsoft.AspNetCore.JsonPatch.dll
+C:\Users\Юра\source\repos\Market\MarketWeb\bin\Debug\net7.0\Newtonsoft.Json.Bson.dll
